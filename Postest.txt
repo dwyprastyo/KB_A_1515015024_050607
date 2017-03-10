@@ -1,0 +1,11 @@
+Nama : Dwy Prastyo
+Nim  : 1515015024
+Kelas: A2015
+
+Facts     = Memulai section facts
+Clause    = Memberikan fakta-fakta yang ada untuk memberikan gambaran kepada VPE dalam melakukan pengujian untuk mencari solusi dari pertanyaan yang diberikan.
+Predicates= Memberikan gambaran akan kata-kata yang ada di fungsi clause.
+Goal      = Menampilkan hasil eksekusi dari program yang telah dibuat.
+Nondeterm = Menentukan bahwa kemungkinan ada sejumlah fakta dari suatu predikat sepanjanng program berjalan(default).
+Determ    = Menentukan bahwa hanya boleh ada satu fakta dari suatu predikat sepanjang program berjalan.
+Global    = Menentukan bahwa setion fact adalah global dalam program.

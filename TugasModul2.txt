@@ -1,0 +1,23 @@
+Nama : Dwy Prastyo
+Nim  : 1515015024
+Kelas: A2015
+
+
+1. Ubah bahasa Prolog berikut menjadi bahasa natural:
+   Jawab : a. dian adalah orang 
+	   b. atoz adalah merk mobil
+	   c. dian menyukai mobil atoz
+	   d. mobil merk atoz sedang dijual
+	   e. X dapat_membeli Y jika X adalah orang dan Y adalah mobil dan X menyukai Y dan Y dijual.
+	   f. Setiap orang menyukai apa ?
+
+2. Ubah bahasa natural berikut menjadi bahasa Prolog:
+   Jawab : a. hobi(Ricky,catur).
+	   b. pemalas(Embang).
+	   c. vegetarian(Yusida).
+	   d. pandai(Kusdiar,gitar).
+	   e. mobil(Sadek,merah),merk(mobil,BMW).
+	   f. pemain(Awan,piano),berasal(Awan,Pontianak),bersuku(Awan,Jawa).
+	   g. baik(orang):- penyayang(a), dermawan(a).
+	   h. pintar(orang):- mendapat_nilai(matematika,tinggi); mendapat_nilai(IPA,tinggi); mendapat_nilai(IPS,tinggi).
+	   i. pasti(_,mati).
