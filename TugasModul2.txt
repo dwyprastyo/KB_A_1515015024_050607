@@ -16,8 +16,8 @@ Kelas: A2015
 	   b. pemalas(Embang).
 	   c. vegetarian(Yusida).
 	   d. pandai(Kusdiar,gitar).
-	   e. mobil(Sadek,merah),merk(mobil,BMW).
-	   f. pemain(Awan,piano),berasal(Awan,Pontianak),bersuku(Awan,Jawa).
-	   g. baik(orang):- penyayang(a), dermawan(a).
-	   h. pintar(orang):- mendapat_nilai(matematika,tinggi); mendapat_nilai(IPA,tinggi); mendapat_nilai(IPS,tinggi).
-	   i. pasti(_,mati).
+	   e. mobil(Sadek,merah,bmw).
+	   f. pemain(Awan,piano,Pontianak,Jawa).
+	   g. baik(X):- penyayang(X), dermawan(X).
+	   h. pintar(Y):- nilaitinggi(Y,matematika); nilaitinggi(Y,ipa); nilaitinggi(Y,IPS).
+	   i. pasti(X,mati):-orang(X).
