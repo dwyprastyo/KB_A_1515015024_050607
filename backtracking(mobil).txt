@@ -1,0 +1,34 @@
+clauses
+  buy_car(Model,Color):-
+	car(Model,Color,Price),
+	colors(Color,sexy),!,
+	Price > 25000.
+
+  car(maserati,green,25000).
+  car(corvette,black,24000).
+  car(corvette,red,26000).
+  car(porsche,red,24000).
+
+  colors(red,sexy).
+  colors(black,mean).
+  colors(green,preppy).
+
+goal
+  buy_car(corvette,Y).
+
+
+Penjelasan : 
+program diatas memeiliki goal buy_car(corvette,Y) dimana Y adalah warna mobil dan harus memenuhi clausa yang disediakan yaitu mobil harus memiliki model, price > 25000
+serta color sexy yaitu color red. pada program price > 25000 tidak akan di eksekusi karna terdapat not (!). 
+
+Saat program di jalan maka yang pertama kali di eksekusi adalah clausa pertama yaitu car(maserati,gree,25000), clausa pertama memenuhi aturan yaitu mobil memiliki
+model, warna serta harga tapi model dan warnanya tidak memenuhi aturan yaitu mobil harus memiliki model corvette dan warna sexy atau berwarna red, maka program 
+akan melakukan backtracking.
+
+kemudian program akan mengeksekusi clausa kedua yaitu car(corvette,black,24000), clausa kedua memenuhi aturan yaitu mobil memiliki model corvette seperti yang diinputkan
+pada goal, mobil juga memiliki warna serta harga, tapi warnanya tidak memenuhi goal karna warna black bukan warna yang sexy, maka program akan melakukan backtracking
+kembali.
+
+kemudian program akan mengeksekusi clausa ketiga yaitu car(corvette,red,26000),clausa ketiga memenuhi aturan yaitu mobil memiliki model corvette, berwarna sexy yaitu
+warna red dan memiliki harga, karna semua aturan sudah terpenuhi oleh clausa ketiga yaitu car(corvette,red,26000), maka program akan mengisi variabel Y dengan warna
+red.
